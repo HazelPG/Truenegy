@@ -1,16 +1,15 @@
+  // Initialize Firebase
 function conectedToFirebase(){
 
   var config = {
-    apiKey: "AIzaSyDiJ5mK-wAjW2s0kuKRhNRyvmOLmQgh9DE",
-    authDomain: "truenergy-b193a.firebaseapp.com",
-    databaseURL: "https://truenergy-b193a.firebaseio.com",
-    projectId: "truenergy-b193a",
-    storageBucket: "truenergy-b193a.appspot.com",
-    messagingSenderId: "1092201535357"
+    apiKey: "AIzaSyCAkYMm53OZei6SEb1JhuqlBLsliXKrUM0",
+    authDomain: "truenergy-833ad.firebaseapp.com",
+    databaseURL: "https://truenergy-833ad.firebaseio.com",
+    projectId: "truenergy-833ad",
+    storageBucket: "truenergy-833ad.appspot.com",
+    messagingSenderId: "810864766590"
   };
+  var fb =  firebase.initializeApp(config);
 
-  var firebase =  firebase.initializeApp(config);
-
-  return firebase;
+    return fb;
 }
-

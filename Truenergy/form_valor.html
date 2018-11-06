@@ -54,6 +54,9 @@
     <!-- responsive CSS
 		============================================ -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
 </head>
 
@@ -94,29 +97,27 @@
             <div class="row">
                 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
                     <div class="sale-statistic-inner notika-shadow mg-tb-30" style=" height: 540px;  width: 1040px; border-radius: 20px; padding: 0px;">
-                        <a href="index.html" class="boton-cerrar"><img src="img/error.png"></a>
-                        <img class="img-niveles" src="img/niveles.png">
+                       <a href="index.html" class="boton-cerrar"><img src="img/error.png"></a>
+                        <img class="img-niveles" src="img/valor.png">
                         <form>
 
                             <div class="form-group">
-                                <h5>Su Estrato es:</h5>
-                                <select class="form-control"  id="Estrato" name="estado">
-                                    <option value=""></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
+                                <h5>Su valor ideal es:</h5>
+                                <input class="input-valor" type="" id="Valor" name="valor">
                             </div>
                         </form>
 
-                        <div class="div-boton"><button type="button" class="button" onclick="addestrato()" >Guardar</button></div>          
+                        <div class="div-boton"><button type="button" class="button" onclick="addvalor()" >Guardar</button></div>          
                     </div>
                 </div>
             </div>
         </div>
-    </div>        
+    </div>                                                                               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Realtime sts area-->
     <!-- Start Footer area-->
     <div class="footer-copyright-area">
@@ -132,9 +133,8 @@
         </div>
     </div>
     <!-- End Footer area-->
-   
     <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
     <script src="js/truenergy.js"></script>
 </body>
 
-</html>
+</html> 

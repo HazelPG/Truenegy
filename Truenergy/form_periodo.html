@@ -54,7 +54,8 @@
     <!-- responsive CSS
 		============================================ -->
     <link rel="stylesheet" href="css/responsive.css">
-
+    <!-- modernizr JS
+		============================================ -->
 </head>
 
 <body>
@@ -95,28 +96,29 @@
                 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
                     <div class="sale-statistic-inner notika-shadow mg-tb-30" style=" height: 540px;  width: 1040px; border-radius: 20px; padding: 0px;">
                         <a href="index.html" class="boton-cerrar"><img src="img/error.png"></a>
-                        <img class="img-niveles" src="img/niveles.png">
+                        <img class="img-niveles" src="img/periodo.png">
                         <form>
-
                             <div class="form-group">
-                                <h5>Su Estrato es:</h5>
-                                <select class="form-control"  id="Estrato" name="estado">
-                                    <option value=""></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
+                                <h5>Su periodo evaluar es:</h5>
+                                <select class="form-control" name="periodo" id="Periodo" >
+                                    <option value="OCTUBRE">OCTUBRE</option>
+                                    <option value="NOVIEMBRE">NOVIEMBRE</option>
+                                    <option value="DICIEMBRE">DICIEMBRE</option>
                                 </select>
                             </div>
                         </form>
 
-                        <div class="div-boton"><button type="button" class="button" onclick="addestrato()" >Guardar</button></div>          
+                        <div class="div-boton"><button type="button" class="button" onclick="addperiodo()" >Guardar</button></div>          
                     </div>
                 </div>
             </div>
         </div>
-    </div>        
+    </div>                                                                               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Realtime sts area-->
     <!-- Start Footer area-->
     <div class="footer-copyright-area">
