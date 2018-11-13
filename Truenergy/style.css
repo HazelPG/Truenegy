@@ -1916,7 +1916,11 @@ p {
     height: 80px;
     border-style: solid;
     border-width: 2px;
+<<<<<<< HEAD
     border-color: #ee8134;
+=======
+    border-color: #c3bdbd;
+>>>>>>> origin/master
     margin-left: 20px;
     border-radius: 5px;
 }
@@ -1949,6 +1953,7 @@ p {
     padding: 5px 5px;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 .cuadro{
     
     padding: 10px;
@@ -2014,6 +2019,11 @@ p {
 
 
 }
+=======
+.header-top-menu{
+    background:;
+}
+>>>>>>> origin/master
 .select{
     float: left;
     width: 120px;
@@ -2041,7 +2051,10 @@ p {
 .menu-abajo{
     padding: 10px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 .img-menu{
     float: left;
     padding-right: 10PX;
@@ -2063,8 +2076,16 @@ p {
     margin-left: 50px;
 }
 
+<<<<<<< HEAD
 .menu-b{
     padding-top: 0px;
+=======
+.row{
+    background: ;
+}
+.menu-b{
+    padding-top: 50px;
+>>>>>>> origin/master
 }
 .form-control{
     width: 180px;
